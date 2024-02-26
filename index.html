@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>RGB Colors</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <h1>RGB Colors</h1>
+    <p>An RGB Color is specified by rgb(red, green, blue)</p>
+    <p>
+      The parameters red,green and blue specify the intensity of the color:0
+      (lowest) to 255 (highest)
+    </p>
+
+    <hr />
+    <h2>Try it out for yourself...</h2>
+    <div>
+      <p>
+        Red:
+        <input type="number" class="rgb-input" id="Red" min="0" max="255" />
+        Green:
+        <input type="number" class="rgb-input" id="green" min="0" max="255" />
+        blue:
+        <input type="number" class="rgb-input" id="blue" min="0" max="255" />
+      </p>
+    </div>
+    <p>
+      <input type="button" value="black" class="button" id="black" />
+      <input type="button" value="white" class="button" id="white" />
+    </p>
+    <div id="box"></div>
+    <p id="prev-container">
+      <input type="button" value="Preview" class="button" id="preview" />
+    </p>
+    <p id="rgb">rgb(255, 255, 0)</p>
+    <hr />
+    <p>
+      <a href="https://en.wikipedia.org/wiki/RGB_color_model">Learn more</a>
+      about RGB Color on Wikipedia.
+    </p>
+  </body>
+</html>
